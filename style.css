@@ -1,0 +1,39 @@
+
+body{
+    background-color: black;
+}
+#container{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    color: aqua;
+    cursor: pointer;
+}
+.whole{
+    margin-top: 10px;
+    align-items: center;
+    margin: 0 auto;
+    height: 500px;
+}
+
+
+.box{
+    border: 1px solid aqua;
+    width: 132px;
+    height: 132px;
+    text-align: center;
+    font-size: 100px;
+
+}
+#reset{
+    display: flex;
+    align-items: center;
+    margin: 35px  auto;
+    color: aqua;
+    background-color: rgb(73, 127, 30);
+    cursor: pointer;
+
+}
